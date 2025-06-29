@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy 6 Months 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #ffeef2;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #5f4b4b;
+    }
+
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 3em;
+      margin-top: 40px;
+      color: #d6336c;
+    }
+
+    .open-btn {
+      background-color: #ffb6c1;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.3em;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin-top: 30px;
+    }
+
+    .open-btn:hover {
+      background-color: #ff91aa;
+    }
+
+    .letter {
+      max-width: 700px;
+      margin: 30px auto;
+      background-color: #fff0f5;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      font-size: 1.2em;
+      line-height: 1.8em;
+      display: none;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .photos img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+    .photos img {
+      width: 200px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .music {
+      margin: 50px 0;
+    }
+
+    footer {
+      margin: 30px;
+      font-size: 0.9em;
+      color: #a47777;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Happy 6 Months, My Love 💖</h1>
+
+  <button class="open-btn" onclick="revealLetter()">💌 Open Your Letter</button>
+
+  <div id="love-letter" class="letter">
+    <p>To the most beautiful girl in the world,</p>
+    <p>Happy 6 months, my love.</p>
+    <p>To my Dear Emily, Oh my glorious Emily, If I were to tell you how much I love you, I would have to write a whole book about it,</p>
+    <p>To think that it is half a year with you already feels like a lie, but to think of it now it's true because time goes fast when I'm with you. I'm sorry that nothing has gone your way recently. I understand how frustrating it is, and how you're always trying your best, just for nothing to happen,</p>
+    <p>I acknowledge that, and I feel sorry, but I really wish you the best to become successful in life, this long distance is getting hard for both of us and I understand that it got frustrated, I love you and I miss you so much Emily, I want to come back to you and this time I moved in with you and stay, I never want to go to Umass, but I know it unavoidable, so I really hope that I can transfer back to California, and get an apartment with you ayeee,</p>
+    <p>but anyway I really want to say that these 6 months has been a really special times for me, and I'm really grateful to have you by my side, Thank you Emily, I love you so much, I would love to go through every problem with you, as long as you're with me I felt like I can do everything, Thank you so much for being there for me and I am really looking forward for our next anniversary, I love you Emily, and I hope our relationship last forever.</p>
+    <p>I love you more than words can ever say.</p>
+    <p>Forever yours,<br /><strong>Nathaseth Supasuk (NJ)</strong></p>
+
+    <div class="photos">
+      <img src="UsbeforeIleft.jpg" alt="Us" />
+      <img src="usonvalentine.jpg" alt="Us" />
+      <img src="usatsunset.jpg" alt="Us" />
+      <img src="usonsunsetagain.jpg" alt="Us" />
+    </div>
+
+    <div class="music">
+      <h2>Our Song 🎵</h2>
+      <!-- Spotify embed -->
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/5mtTAScDytxMMqZj14NmlN?si=38980907c0ae48b2"
+        width="300"
+        height="80"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+      ></iframe>
+
+      <!-- Optional HTML5 audio player (use your own mp3 file here) -->
+      <!--
+      <audio id="myAudio" src="lover.mp3" preload="auto"></audio>
+      -->
+    </div>
+  </div>
+
+  <footer>Made with love for our 6-month anniversary 💗</footer>
+
+  <script>
+    function revealLetter() {
+  document.getElementById('love-letter').style.display = 'block';
+  document.querySelector('.open-btn').style.display = 'none';
+
+  // Play the audio
+  document.getElementById('myAudio').play();
+}
+  </script>
+</body>
+</html>
